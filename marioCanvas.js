@@ -24,8 +24,18 @@
     ctx.stroke()
     ctx.fillStyle="maroon"
     ctx.fill()
-        //Point d'interrogation
-    ctx.beginPath()
+    //Point d'interrogation #1
+    ctx.beginPath() //premier point//
+    ctx.moveTo(411,403)
+    ctx.lineTo(411,405)
+    ctx.lineTo(413,405)
+    ctx.lineTo(413,403)
+    ctx.closePath()
+    ctx.fillStyle="yellow"
+    ctx.fill()
+
+    //bloc de 3 points top
+    ctx.beginPath() 
     ctx.moveTo(405,405)
     ctx.lineTo(405,407)
     ctx.lineTo(407,407)
@@ -52,15 +62,7 @@
     ctx.fillStyle="yellow"
     ctx.fill()
 
-    ctx.beginPath()
-    ctx.moveTo(411,403)
-    ctx.lineTo(411,405)
-    ctx.lineTo(413,405)
-    ctx.lineTo(413,403)
-    ctx.closePath()
-    ctx.fillStyle="yellow"
-    ctx.fill()
-
+    //bloc de 2 points verticaux
     ctx.beginPath()
     ctx.moveTo(413,405)
     ctx.lineTo(413,407)
@@ -79,6 +81,7 @@
     ctx.fillStyle="yellow"
     ctx.fill()
 
+    //bloc de 3 points verticaux
     ctx.beginPath()
     ctx.moveTo(412,409)
     ctx.lineTo(412,411)
@@ -102,6 +105,16 @@
     ctx.lineTo(410,415)
     ctx.lineTo(412,415)
     ctx.lineTo(412,413)
+    ctx.closePath()
+    ctx.fillStyle="yellow"
+    ctx.fill()
+
+    // ajout du dernier point //
+    ctx.beginPath() 
+    ctx.moveTo(410,417)
+    ctx.lineTo(410,419)
+    ctx.lineTo(412,419)
+    ctx.lineTo(412,417)
     ctx.closePath()
     ctx.fillStyle="yellow"
     ctx.fill()
@@ -145,6 +158,101 @@ ctx.beginPath()
     ctx.fillStyle="maroon"
     ctx.fill()
 
+            //Point d'interrogation
+            ctx.beginPath() //premier point//
+            ctx.moveTo(493,405)
+            ctx.lineTo(493,406)
+            ctx.lineTo(495,406)
+            ctx.lineTo(495,405)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+
+            //bloc de 3 points top
+            ctx.beginPath()
+            ctx.moveTo(495,403)
+            ctx.lineTo(495,405)
+            ctx.lineTo(497,405)
+            ctx.lineTo(497,403)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+        
+            ctx.beginPath()
+            ctx.moveTo(497,403)
+            ctx.lineTo(497,405)
+            ctx.lineTo(499,405)
+            ctx.lineTo(499,403)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+        
+            ctx.beginPath()
+            ctx.moveTo(499,403)
+            ctx.lineTo(499,405)
+            ctx.lineTo(501,405)
+            ctx.lineTo(501,403)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+        
+            //bloc de 2 points verticaux  
+            ctx.beginPath() 
+            ctx.moveTo(501,405)
+            ctx.lineTo(501,407)
+            ctx.lineTo(503,407)
+            ctx.lineTo(503,405)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+        
+            ctx.beginPath()
+            ctx.moveTo(501,407)
+            ctx.lineTo(501,409)
+            ctx.lineTo(503,409)
+            ctx.lineTo(503,407)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+        
+            //bloc de 3 points verticaux
+            ctx.beginPath()
+            ctx.moveTo(499,409)
+            ctx.lineTo(499,411)
+            ctx.lineTo(501,411)
+            ctx.lineTo(501,409)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+        
+            ctx.beginPath()
+            ctx.moveTo(499,411)
+            ctx.lineTo(499,413)
+            ctx.lineTo(501,413)
+            ctx.lineTo(501,411)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+        
+            ctx.beginPath()
+            ctx.moveTo(499,413)
+            ctx.lineTo(499,415)
+            ctx.lineTo(501,415)
+            ctx.lineTo(501,413)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+        
+            // ajout du dernier point //
+            ctx.beginPath() 
+            ctx.moveTo(499,417)
+            ctx.lineTo(499,419)
+            ctx.lineTo(501,419)
+            ctx.lineTo(501,417)
+            ctx.closePath()
+            ctx.fillStyle="yellow"
+            ctx.fill()
+
 // brique block 4//
 //x=horizon,y=vertical//
 
@@ -170,7 +278,6 @@ ctx.beginPath()
     ctx.stroke()
     ctx.fillStyle="brown"
     ctx.fill()
-
 
 //bonhomme//  
     //pied droite//  
